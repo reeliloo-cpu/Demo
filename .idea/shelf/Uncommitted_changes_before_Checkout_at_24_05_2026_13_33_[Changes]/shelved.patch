@@ -1,0 +1,17 @@
+Index: tests/ui/e2e-flow-simple.spec.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import { test, expect } from '@playwright/test'\r\nimport { LoginPage } from '../pages/login-page'\r\nimport { faker } from '@faker-js/faker/locale/ar'\r\nimport { PASSWORD, USERNAME } from '../../config/env-data'\r\nimport { async } from 'fast-glob'\r\n\r\ntest('signIn button disabled when incorrect data inserted', async ({ page }) => {\r\n  const loginPage = new LoginPage(page)\r\n  await loginPage.open()\r\n  await loginPage.usernameField.fill(faker.lorem.word(2))\r\n  await loginPage.passwordField.fill(faker.lorem.word(7))\r\n  await expect(loginPage.signInButton).toBeDisabled()\r\n})\r\n\r\ntest('login with correct credentials and verify order creation page', async ({ page }) => {\r\n  const loginPage = new LoginPage(page)\r\n  await loginPage.open()\r\n  const orderCreationPage = await loginPage.signIn(USERNAME, PASSWORD)\r\n  //await orderCreationPage.statusButton.click({ force: true })\r\n  await expect(orderCreationPage.statusButton).toBeVisible()\r\n})\r\n\r\ntest('login and create an order', async ({ page }) => {\r\n  const loginPage = new LoginPage(page)\r\n  await loginPage.open()\r\n  const orderCreationPage = await loginPage.signIn(USERNAME, PASSWORD)\r\n  await orderCreationPage.customerName.fill(faker.lorem.word(5))\r\n  await orderCreationPage.customerPhone.fill('65432123456789')\r\n  await orderCreationPage.createOrderButton.click()\r\n  await expect(orderCreationPage.orderCreatedButton).toBeVisible()\r\n})\r\n\r\ntest('login and logout', async ({ page }) => {\r\n  const loginPage = new LoginPage(page)\r\n  await loginPage.open()\r\n  const orderCreationPage = await loginPage.signIn(USERNAME, PASSWORD)\r\n  await orderCreationPage.logoutButton.click()\r\n  await expect(loginPage.signInButton).toBeVisible()\r\n\r\n  // verify at least few elements on the order creation page\r\n})
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/tests/ui/e2e-flow-simple.spec.ts b/tests/ui/e2e-flow-simple.spec.ts
+--- a/tests/ui/e2e-flow-simple.spec.ts	(revision 5f97d1bec9b7373c5da4cacc7d3971e6f3f790f1)
++++ b/tests/ui/e2e-flow-simple.spec.ts	(date 1779618315454)
+@@ -38,4 +38,4 @@
+   await expect(loginPage.signInButton).toBeVisible()
+ 
+   // verify at least few elements on the order creation page
+-})
+\ No newline at end of file
++})

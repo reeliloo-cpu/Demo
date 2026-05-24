@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="805df703-b6de-4d07-ba85-a0054576ed0b" name="Changes" comment="Homework 18">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/playwright.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/playwright.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pages/login-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pages/login-page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pages/order-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pages/order-page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ui/e2e-flow-simple.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ui/e2e-flow-simple.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ui/e2e-flow-with-before.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ui/e2e-flow-with-before.spec.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "reeliloo-cpu"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/reeliloo-cpu/UI_Test.git",
+    "accountId": "88d35d07-da5d-4ccc-b090-92fea3a8fb90"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3E4zrjUBCZmlxPYERC08klAhomO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Playwright.e2e-flow-simple.spec.ts.executor": "Run",
+    "Playwright.e2e-flow-with-before.spec.ts.executor": "Run",
+    "Playwright.login and create an order.executor": "Run",
+    "Playwright.login and logout.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "HW__18",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.preferred.runtime.type.id": "node",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\reeli.loo\\OneDrive - Finest AS\\Desktop\\Tallinn_Learning_02_02\\Demo\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Playwright.e2e-flow-with-before.spec.ts">
+    <configuration name="e2e-flow-with-before.spec.ts" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/tests/ui/e2e-flow-with-before.spec.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="login and create an order" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/ui/e2e-flow-simple.spec.ts" />
+      <test-names>
+        <test-name value="login and create an order" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="login and logout" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/ui/e2e-flow-simple.spec.ts" />
+      <test-names>
+        <test-name value="login and logout" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Playwright.login and logout" />
+        <item itemvalue="Playwright.login and create an order" />
+        <item itemvalue="Playwright.e2e-flow-with-before.spec.ts" />
+        <item itemvalue="Playwright.login and logout" />
+        <item itemvalue="Playwright.login and create an order" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="805df703-b6de-4d07-ba85-a0054576ed0b" name="Changes" comment="" />
+      <created>1779452830758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779452830758</updated>
+      <workItem from="1779452831860" duration="10404000" />
+    </task>
+    <task id="LOCAL−00001" summary="Homework 18">
+      <option name="closed" value="true" />
+      <created>1779617678468</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1779617678468</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 18" />
+  </component>
+</project>
