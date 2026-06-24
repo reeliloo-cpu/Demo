@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="805df703-b6de-4d07-ba85-a0054576ed0b" name="Changes" comment="Homework 19">
-      <change afterPath="$PROJECT_DIR$/tests/pages/todo-page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ui/todo-app-flow.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/env-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/env-data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ui/e2e-flow-simple.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ui/e2e-flow-simple.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,33 +47,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Playwright.create two tasks and validate filter.executor": "Run",
-    "Playwright.e2e-flow-simple.spec.ts.executor": "Run",
-    "Playwright.e2e-flow-with-before.spec.ts.executor": "Run",
-    "Playwright.login and create an order.executor": "Run",
-    "Playwright.login and logout.executor": "Run",
-    "Playwright.todo-app-flow.spec.ts.executor": "Run",
-    "Playwright.todo-app-flow.ts.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "HW__19",
-    "ignore.virus.scanning.warn.message": "true",
-    "javascript.preferred.runtime.type.id": "node",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\reeli.loo\\OneDrive - Finest AS\\Desktop\\Tallinn_Learning_02_02\\Demo\\node_modules\\prettier",
-    "ts.external.directory.path": "C:\\Users\\reeli.loo\\OneDrive - Finest AS\\Desktop\\Tallinn_Learning_02_02\\Demo\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Playwright.create two tasks and validate filter.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.e2e-flow-simple.spec.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.e2e-flow-with-before.spec.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.login and create an order.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.login and logout.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.todo-app-flow.spec.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Playwright.todo-app-flow.ts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;HW__19&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\reeli.loo\\OneDrive - Finest AS\\Desktop\\Tallinn_Learning_02_02\\Demo\\node_modules\\prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\reeli.loo\\OneDrive - Finest AS\\Desktop\\Tallinn_Learning_02_02\\Demo\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Playwright.todo-app-flow.spec.ts">
     <configuration name="create two tasks and validate filter" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
@@ -168,7 +163,14 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1779617678468</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Homework 19 - yaml file fix">
+      <option name="closed" value="true" />
+      <created>1782325847220</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1782325847220</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework 18" />
     <MESSAGE value="Homework 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 19" />
+    <MESSAGE value="Homework 19 - yaml file fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 19 - yaml file fix" />
   </component>
 </project>
