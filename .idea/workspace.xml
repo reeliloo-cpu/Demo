@@ -4,41 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="805df703-b6de-4d07-ba85-a0054576ed0b" name="Changes" comment="Homework 18">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/playwright.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/playwright.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/pages/login-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pages/login-page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/pages/order-page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pages/order-page.ts" afterDir="false" />
+    <list default="true" id="805df703-b6de-4d07-ba85-a0054576ed0b" name="Changes" comment="Homework 19">
+      <change afterPath="$PROJECT_DIR$/tests/pages/todo-page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ui/todo-app-flow.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/env-data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/config/env-data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playwright.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/playwright.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/ui/e2e-flow-simple.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ui/e2e-flow-simple.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ui/e2e-flow-with-before.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ui/e2e-flow-with-before.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="HW_18" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "reeliloo-cpu"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;reeliloo-cpu&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/reeliloo-cpu/UI_Test.git",
-    "accountId": "88d35d07-da5d-4ccc-b090-92fea3a8fb90"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/reeliloo-cpu/Demo.git&quot;,
+    &quot;accountId&quot;: &quot;88d35d07-da5d-4ccc-b090-92fea3a8fb90&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3E4zrjUBCZmlxPYERC08klAhomO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,15 +54,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Playwright.create two tasks and validate filter.executor": "Run",
     "Playwright.e2e-flow-simple.spec.ts.executor": "Run",
     "Playwright.e2e-flow-with-before.spec.ts.executor": "Run",
     "Playwright.login and create an order.executor": "Run",
     "Playwright.login and logout.executor": "Run",
+    "Playwright.todo-app-flow.spec.ts.executor": "Run",
+    "Playwright.todo-app-flow.ts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "HW__18",
+    "git-widget-placeholder": "HW__19",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.preferred.runtime.type.id": "node",
     "node.js.detected.package.eslint": "true",
@@ -62,11 +74,24 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\reeli.loo\\OneDrive - Finest AS\\Desktop\\Tallinn_Learning_02_02\\Demo\\node_modules\\prettier",
     "ts.external.directory.path": "C:\\Users\\reeli.loo\\OneDrive - Finest AS\\Desktop\\Tallinn_Learning_02_02\\Demo\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Playwright.e2e-flow-with-before.spec.ts">
+  <component name="RunManager" selected="Playwright.todo-app-flow.spec.ts">
+    <configuration name="create two tasks and validate filter" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/ui/todo-app-flow.spec.ts" />
+      <test-names>
+        <test-name value="create two tasks and validate filter" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="e2e-flow-with-before.spec.ts" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
@@ -74,18 +99,6 @@
       <envs />
       <scope-kind value="TEST_FILE" />
       <test-file value="$PROJECT_DIR$/tests/ui/e2e-flow-with-before.spec.ts" />
-      <method v="2" />
-    </configuration>
-    <configuration name="login and create an order" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/tests/ui/e2e-flow-simple.spec.ts" />
-      <test-names>
-        <test-name value="login and create an order" />
-      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="login and logout" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
@@ -100,13 +113,31 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="todo-app-flow.spec.ts" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/tests/ui/todo-app-flow.spec.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="todo-app-flow.ts" type="JavaScriptTestRunnerPlaywright" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <playwright-package value="$PROJECT_DIR$/node_modules/@playwright/test" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/tests/ui/todo-app-flow.ts" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Playwright.login and logout" />
-        <item itemvalue="Playwright.login and create an order" />
+        <item itemvalue="Playwright.todo-app-flow.spec.ts" />
+        <item itemvalue="Playwright.create two tasks and validate filter" />
+        <item itemvalue="Playwright.todo-app-flow.ts" />
         <item itemvalue="Playwright.e2e-flow-with-before.spec.ts" />
         <item itemvalue="Playwright.login and logout" />
-        <item itemvalue="Playwright.login and create an order" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +156,10 @@
       <option name="presentableId" value="Default" />
       <updated>1779452830758</updated>
       <workItem from="1779452831860" duration="10404000" />
+      <workItem from="1779622879098" duration="2518000" />
+      <workItem from="1779693417608" duration="1316000" />
+      <workItem from="1780379277994" duration="319000" />
+      <workItem from="1782308238319" duration="3052000" />
     </task>
     <task id="LOCAL−00001" summary="Homework 18">
       <option name="closed" value="true" />
@@ -141,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 18" />
+    <MESSAGE value="Homework 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 19" />
   </component>
 </project>

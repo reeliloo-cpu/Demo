@@ -19,7 +19,7 @@ export default defineConfig({
   use: {
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    testIdAttribute: 'data-name',
+    /*testIdAttribute: 'data-name',*/
     viewport: { width: 1920, height: 1080 },
   },
 
