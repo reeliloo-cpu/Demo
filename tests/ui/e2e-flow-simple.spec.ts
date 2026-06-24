@@ -2,7 +2,6 @@ import { test, expect } from '@playwright/test'
 import { LoginPage } from '../pages/login-page'
 import { faker } from '@faker-js/faker/locale/ar'
 import { PASSWORD, USERNAME } from '../../config/env-data'
-import { async } from 'fast-glob'
 
 test('signIn button disabled when incorrect data inserted', async ({ page }) => {
   const loginPage = new LoginPage(page)
